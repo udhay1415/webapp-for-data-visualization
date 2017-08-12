@@ -13,7 +13,7 @@ function parseData(createGraph) {
 
 function createGraph(data) {
 	var RetentionTime = [];
-	var Intensity = [Intensity];
+	var Intensity = ["Intensity"];
 
 	for (var i = 0; i < data.length-1; i++) {
 		RetentionTime.push(data[i][0]);
