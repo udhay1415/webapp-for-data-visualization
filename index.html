@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Graphs from CSVs</title>
+		<link rel='stylesheet' href='stylesheets/style.css' />
+		<link rel='stylesheet' href='stylesheets/bootstrap.min.css' />
+		<link rel='stylesheet' href='stylesheets/font-awesome.min.css' />
+
+		<!-- Load c3.css -->
+		<link href="stylesheets/c3.css" rel="stylesheet" type="text/css">
+
+		<!-- Load d3.js and c3.js -->
+		<script src="javascripts/d3.v3.min.js" charset="utf-8"></script>
+		<script src="javascripts/c3.min.js"></script>
+
+		<!-- Load papaparse.js -->
+		<script src="javascripts/papaparse.min.js"></script>
+  	</head>
+  	<body>
+  		<br>
+    	<div class="container">
+				<h1 class="text-center">GROUP-1</h1>
+				<p>Intensity</p>
+    		<div id="chart"></div>
+				<br>
+				<h4 class="text-center">x-axis - RetentionTime</h4>
+				<h4 class="text-center">y-axis - Intensity</h4>
+				<br><br><br><br>
+				<h1 class="text-center">GROUP-2</h1>
+				<div id="chart1"></div>
+				<br><br>
+				<h4 class="text-center">x-axis - RetentionTime</h4>
+				<h4 class="text-center">y-axis - Intensity</h4>
+    	</div>
+
+		<script src="javascripts/create-graph.js"></script>
+		<script src="javascripts/create-graph1.js"></script>
+  	</body>
+</html>
