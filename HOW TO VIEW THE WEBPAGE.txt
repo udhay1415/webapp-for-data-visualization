@@ -1,0 +1,12 @@
+------------- How to view the webpage --------------------
+
+  
+You need to initiate the webserver. 
+1.I use atom text editor and I used the plugin "Atom live server by Jas Chen" for launching the server. 
+-->Download atom.
+-->Install plugin "Atom live server by Jas Chen".
+-->restart atom.
+-->Open the project folder in atom.
+-->packages->atom live server->start server
+
+Python can also to initiate the web server. 
