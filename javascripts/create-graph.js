@@ -1,6 +1,6 @@
 /*
- * Parse the data and create a graph with the data.
- */
+ * Parse the data and create a graph with the data */
+ 
 function parseData(createGraph) {
 	Papa.parse("../data/sample_data.csv", {
 		download: true,
