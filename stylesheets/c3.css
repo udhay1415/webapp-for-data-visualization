@@ -1,4 +1,4 @@
-/*-- Chart --*/
+/*--   Chart    --*/
 .c3 svg {
   font: 10px sans-serif;
   -webkit-tap-highlight-color: transparent; }
@@ -37,7 +37,7 @@
 .c3-xgrid, .c3-ygrid {
   stroke-dasharray: 3 3; }
 
-/*-- Text on Chart --*/
+/*--  Text on Chart --*/
 .c3-text.c3-empty {
   fill: #808080;
   font-size: 2em; }
@@ -77,12 +77,12 @@
   fill: steelblue;
   fill-opacity: .1; }
 
-/*-- Brush --*/
+/*--  Brush --*/
 .c3-brush .extent {
   fill-opacity: .1; }
 
 /*-- Select - Drag --*/
-/*-- Legend --*/
+/*--  Legend --*/
 .c3-legend-item {
   font-size: 12px; }
 
@@ -99,7 +99,7 @@
 .c3-title {
   font: 14px sans-serif; }
 
-/*-- Tooltip --*/
+
 .c3-tooltip-container {
   z-index: 10; }
 
@@ -138,7 +138,7 @@
 .c3-tooltip td.value {
   text-align: right; }
 
-/*-- Area --*/
+/*--   Area --*/
 .c3-area {
   stroke-width: 0;
   opacity: 0.2; }
